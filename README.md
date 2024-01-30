@@ -1,4 +1,4 @@
-# Financial Order Book Management System
+# QuantumTrader-Advanced-CPP-Order-Book-Engine
 
 This project implements a sophisticated financial order book management system in C++. The system facilitates the management of buy (bids) and sell (asks) orders for a financial instrument, incorporating various features and concepts.
 
@@ -45,17 +45,6 @@ int main() {
 
     return 0;
 }
-## Build Instructions
-
-To build the project, use the following commands:
-
-```bash
-mkdir build
-cd build
-cmake .. -G "MinGW Makefiles"
-mingw32-make
-cd bin
-./MDSTEST.exe
 ```
 
 # C++ Order Book Project Overview
@@ -134,6 +123,18 @@ cd bin
 
 ---
 
+## Build Instructions
+
+To build the project, use the following commands:
+
+```bash
+mkdir build
+cd build
+cmake .. -G "MinGW Makefiles"
+mingw32-make
+cd bin
+./MDSTEST.exe
+```
 Feel free to adapt and extend this code for further enhancements and scenarios based on your requirements.
 
 
